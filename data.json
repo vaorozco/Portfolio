@@ -1,0 +1,74 @@
+{
+  "name": "Victor",
+  "projects": [
+    {
+      "name": "Fonet",
+      "type": "Mobile",
+      "skills": [
+        {
+          "name": "Android Studio"
+        },
+        {
+          "name": "Android UI"
+        },
+        {
+          "name": "Java"
+        },
+        {
+          "name": "SQL"
+        }
+      ]
+    },
+    {
+      "name": "Employee Manager",
+      "type": "Backend",
+      "skills": [
+        {
+          "name": "Spring Boot"
+        },
+        {
+          "name": "Angular"
+        },
+        {
+          "name": "MySql"
+        },
+        {
+          "name": "API"
+        }
+      ]
+    },
+    {
+      "name": "Rick & Morty Characters",
+      "type": "Frontend",
+      "skills": [
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        },
+        {
+          "name": "Javascript"
+        },
+        {
+          "name": "API"
+        }
+      ]
+    },
+    {
+      "name": "Todo App",
+      "type": "Frontend",
+      "skills": [
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        },
+        {
+          "name": "Vue Js"
+        }
+      ]
+    }
+  ]
+}
