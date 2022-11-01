@@ -8,26 +8,31 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: HomeView,
+      meta: { transition: "slide-left" },
     },
     {
       path: "/about",
       name: "about",
       component: () => import("../views/AboutView.vue"),
+      meta: { transition: "slide-left" },
     },
     {
       path: "/skills",
       name: "skills",
       component: () => import("../views/SkillView.vue"),
+      meta: { transition: "slide-left" },
     },
     {
       path: "/projects",
       name: "projects",
       component: () => import("../views/ProjectView.vue"),
+      meta: { transition: "slide-left" },
     },
     {
       path: "/contact",
       name: "contact",
       component: () => import("../views/ContactView.vue"),
+      meta: { transition: "slide-left" },
     },
   ],
 });

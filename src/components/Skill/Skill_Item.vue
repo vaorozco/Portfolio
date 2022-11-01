@@ -7,7 +7,11 @@
                 <slot name="name"></slot>
             </span>
             <div class="skills-bar">
-                <div style="background:aqua; width: 70%;"></div>
+                <slot name="level">
+
+                    <!-- <div style="background:aqua; width: 70%;"></div> -->
+
+                </slot>
             </div>
         </div>
     </div>

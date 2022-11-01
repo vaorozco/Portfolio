@@ -5,7 +5,13 @@ import Nav from './components/Nav.vue'
 
 <template>
   <Nav />
-  <RouterView id="routerView" />
+  <RouterView id="routerView" v-slot="{ Component }">
+
+    <transition name="route" mode="out-in">
+      <component :is="Component" />
+    </transition>
+
+  </RouterView>
 
 </template>
 
